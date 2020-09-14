@@ -1,0 +1,28 @@
+nav.bg-dark{
+    background-color: rgb(243, 188, 36)!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 20px;
+    text-align: center;
+}
+.navbar-nav{
+    flex-direction: inherit!important;
+}
+li.nav-item{
+    width: 170px;
+    height: 62px;
+    line-height: 50px;
+}
+div.bg-success{
+    background-color: white!important;
+}
+
+@media screen and (max-width: 768px)
+{
+    li.nav-item{
+        width: 100px;
+    }
+   div.logo{
+       margin-left: 0;
+   }
+}
